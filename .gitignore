@@ -72,3 +72,20 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.jks
+*.keystore
+!debug.keystore
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
